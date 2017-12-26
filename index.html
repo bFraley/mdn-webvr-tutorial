@@ -27,7 +27,6 @@ anything you deem suitable for your scene — milimeters, meters, feet, or miles
         <a-sky color="#DDDDDD"></a-sky>
         <a-cube color="#0095DD" position="0 1 0" rotation="20 40 0"></a-cube>
 
-        <!-- Don't forget the camera -->
         <a-camera
           position="0 1 4"
           cursor-visible="true"
@@ -35,8 +34,22 @@ anything you deem suitable for your scene — milimeters, meters, feet, or miles
           cursor-color="#0095DD"
           cursor-opacity="0.5">
         </a-camera>
+
+        <a-light
+          type="directional"
+          color="#FFF"
+          intensity="0.5"
+          position="-1 1 2">
+        </a-light>
+
+        <a-light
+          type="ambient"
+          color="#FFF">
+        </a-light>
         
     </a-scene>
 
 </body>
 </html>
+
+

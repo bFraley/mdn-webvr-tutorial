@@ -26,7 +26,17 @@ anything you deem suitable for your scene — milimeters, meters, feet, or miles
     <a-scene>
         <a-sky color="#DDDDDD"></a-sky>
         <a-cube color="#0095DD" position="0 1 0" rotation="20 40 0"></a-cube>
+
+        <!-- Don't forget the camera -->
+        <a-camera
+          position="0 1 4"
+          cursor-visible="true"
+          cursor-scale="2"
+          cursor-color="#0095DD"
+          cursor-opacity="0.5">
+        </a-camera>
+        
     </a-scene>
-    
+
 </body>
 </html>

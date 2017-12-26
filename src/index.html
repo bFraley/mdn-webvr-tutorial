@@ -12,7 +12,19 @@
     <div id="wrapper">
 
         <!-- Create the scene by adding an <a-scene> element inside the <body> element: -->
-        <a-scene></a-scene>
+        <a-scene>
+
+            <!-- A cube element
+
+            It contains a few parameters already defined: color, position and rotation — 
+            these are fairly obvious, and define the base color of the cube, the position inside the 3D scene, and the rotation of the cube.
+
+            Note: The distance values (e.g. for the cube y position) are unitless, and can basically be 
+            anything you deem suitable for your scene — milimeters, meters, feet, or miles — it's up to you. -->
+
+            <a-cube color="#0095DD" position="0 1 0" rotation="20 40 0"></a-cube>
+
+        </a-scene>
 
     </div> <!-- #wrapper -->
 </body>
